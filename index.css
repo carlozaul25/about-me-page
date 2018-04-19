@@ -1,9 +1,10 @@
-	/*MAIN PAGE*/
+	
+	/*MAIN PAGE GRIDS*/
 
 	.wrapper {
 		border: 2px solid;
 		display: grid;
-		 grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(3, 1fr);
    		grid-template-rows: repeat(6, 100px);
 	}
 
@@ -64,16 +65,64 @@
 		border: 2px solid red;
 		grid-column-start: 1;
 		grid-column-end: 4;
-		grid-row-start: ;
-   		grid-row-end: ;
+		grid-row-start: 
+   		grid-row-end: 
    		background-color: 
 	}
 
 
-/*	ABOUT ME*/
+/*	ABOUT ME GRIDS*/
+
+.container {
+	border: 2px solid;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+   	grid-template-rows: repeat(4, 100px);
+	}
 
 
+ .aboutbox1 {
+ 	border: 2px solid red;
+	grid-column-start: 1;
+   	grid-row-start: 2;
+   	grid-row-end: 5;
+ }
 
+ .aboutbox2 {
+ 	border: 2px solid red;
+	grid-column-start: 3;
+   	grid-row-start: 2;
+   	grid-row-end: 5;
+ }
+
+ .aboutbox3 {
+ 	border: 2px solid red;
+	grid-column-start: 1;
+	grid-column-end: 4;
+   	grid-row-start: ;
+   	grid-row-end: ;
+ }
+
+/* .aboutbox4 {
+ 	border: 2px solid red;
+	grid-column-start: ;
+   	grid-row-start: ;
+   	grid-row-end: ;
+ }*/
+
+ /*.aboutbox5 {
+ 	border: 2px solid red;
+	grid-column-start: ;
+   	grid-row-start: ;
+   	grid-row-end: ;
+ }
+
+ .aboutbox6 {
+ 	border: 2px solid red;
+	grid-column-start: ;
+   	grid-row-start: ;
+   	grid-row-end: ;
+ }*/
 
 
 
