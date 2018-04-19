@@ -95,20 +95,20 @@
    	grid-row-end: 5;
  }
 
- .aboutbox3 {
+/* .aboutbox3 {
  	border: 2px solid red;
 	grid-column-start: 1;
 	grid-column-end: 4;
    	grid-row-start: ;
    	grid-row-end: ;
- }
-
-/* .aboutbox4 {
- 	border: 2px solid red;
-	grid-column-start: ;
-   	grid-row-start: ;
-   	grid-row-end: ;
  }*/
+
+ .aboutbox4 {
+ 	border: 2px solid red;
+	grid-column-start: 2;
+   	grid-row-start: 1;
+   	grid-row-end: 5;
+ }
 
  /*.aboutbox5 {
  	border: 2px solid red;
@@ -123,6 +123,43 @@
    	grid-row-start: ;
    	grid-row-end: ;
  }*/
+
+ 		/*INTERESTS/HOBBIES*/
+
+ .container2 {
+		border: 2px solid;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+   		grid-template-rows: repeat(5, 100px);
+	}
+
+	.intbox1 {
+ 	border: 2px solid red;
+	grid-column-start:;
+   	grid-row-start:;
+   	grid-row-end:;
+ }
+
+ 	.intbox2 {
+ 	border: 2px solid red;
+	grid-column-start:;
+   	grid-row-start: 
+   	grid-row-end:;
+ }
+
+ 	.intbox3 {
+ 	border: 2px solid red;
+	grid-column-start:;
+   	grid-row-start:;
+   	grid-row-end:;
+ }
+
+ 	.intbox4 {
+ 	border: 2px solid red;
+	grid-column-start:;
+   	grid-row-start:;
+   	grid-row-end:;
+ }
 
 
 
