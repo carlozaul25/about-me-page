@@ -1,6 +1,9 @@
 	
 	/*MAIN PAGE GRIDS*/
+body {
+	background-image: url("background.jpg");
 
+}
 	.wrapper {
 		border: 2px solid;
 		display: grid;
@@ -78,6 +81,7 @@
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
    	grid-template-rows: repeat(4, 100px);
+   	color: white;
 	}
 
 
@@ -97,6 +101,7 @@
    	background-repeat: no-repeat;
    	background-size: 420px 300px;
  	border-radius: 20px;
+ 	filter: contrast(100%);
  }
 
 /* .aboutbox3 {
@@ -113,15 +118,17 @@
    	grid-row-start: 1;
    	grid-row-end: 5;
    	color: black;
-   	font-weight: 700;
+   	font-weight: 900;
    	color: maroon;
    	padding: 20px;
  }
 .aboutbox4 p {
-	border: double;
+	border: 2px white;
 	border-color: black;
 	padding: 10px;
 	font-variant: small-caps;
+	color:  #000099;
+	font-size: 17px;
 }
  /*.aboutbox5 {
  	border: 2px solid red;
@@ -156,7 +163,7 @@
    	background-repeat: no-repeat;
    	background-size: 420px 300px;
    	font-weight: 900;
-   	opacity: 0.3;
+   	opacity: 0.7;
 
  }
  
@@ -170,7 +177,7 @@
  	}
 
  	.intbox1:hover {
- 		opacity:0.8;
+ 		opacity:0.9;
  	}
 
  	.intbox1 h2 {
@@ -178,11 +185,16 @@
  	}
 
  	.intbox2 {
- 	border: 2px solid red;
+ 	border: 2px solid;
 	grid-column-start:2;
    	grid-row-start: 3;
    	grid-row-end:6;
  }
+
+ 	.intbox2 h2 {
+ 		text-align: center;
+ 		letter-spacing: 5px;
+ 	}
 
  	.intbox3 {
  	border: 2px solid red;
@@ -199,13 +211,51 @@
 	}
 
  	.intbox4 {
- 	border: 2px solid red;
+ 	border: 2px solid brown;
+ 	border-width: 10px;
+ 	border-radius: 10px;
 	grid-column-start:3;
    	grid-row-start:1;
    	grid-row-end:4;
+   	background-color: #cc6600
+ 		
  }
+ 	.intbox4 img {
+ 		transition: height 2s, width 2s; 
+		position: relative;
+ 		float: right;
+ 		animation: walking 3s ease-out 1s 4 normal;
+ 	}
+
+ 	.intbox4 p {
+ 		padding: 20px;
+ 		color: white;
+ 	}
 
 
+ 	@keyframes walking {
+	0% {
+		left: 0px;
+		top: 0px;     
+	}
+	 25%{
+
+		right: 100px;
+		top: 0;                
+	}
+
+	50% {
+
+		left: 50px;
+		bottom: 200px;
+	}
+	75% {
+
+		left: 10px;
+		top: 300px;
+
+	}
+}
 
 
 
