@@ -93,6 +93,10 @@
 	grid-column-start: 3;
    	grid-row-start: 2;
    	grid-row-end: 5;
+   	background-image: url("wash.jpg");
+   	background-repeat: no-repeat;
+   	background-size: 420px 300px;
+ 	border-radius: 20px;
  }
 
 /* .aboutbox3 {
@@ -108,8 +112,17 @@
 	grid-column-start: 2;
    	grid-row-start: 1;
    	grid-row-end: 5;
+   	color: black;
+   	font-weight: 700;
+   	color: maroon;
+   	padding: 20px;
  }
-
+.aboutbox4 p {
+	border: double;
+	border-color: black;
+	padding: 10px;
+	font-variant: small-caps;
+}
  /*.aboutbox5 {
  	border: 2px solid red;
 	grid-column-start: ;
@@ -139,7 +152,30 @@
 /*	grid-column-end: 2;*/
    	grid-row-start:1;
    	grid-row-end:4;
+   	background-image: url("carlos.jpg");
+   	background-repeat: no-repeat;
+   	background-size: 420px 300px;
+   	font-weight: 900;
+   	opacity: 0.3;
+
  }
+ 
+ 	.intbox1 p {
+	border-color: black;
+	padding: 10px;
+	font-variant: small-caps;
+	color: white;
+	position: relative;
+	top: 50px;
+ 	}
+
+ 	.intbox1:hover {
+ 		opacity:0.8;
+ 	}
+
+ 	.intbox1 h2 {
+ 		color: white;
+ 	}
 
  	.intbox2 {
  	border: 2px solid red;
@@ -153,12 +189,14 @@
 	grid-column-start:2;
    	grid-row-start:1;
    	grid-row-end:3;
-  /* 	border-radius: 100%;*/
    	background-image: url("cat.png");
    	background-position: center;
    	background-size: 230px, 200px;
    	background-repeat: no-repeat;
  }
+	.intbox3:hover {
+	background-image: url("dab.png");
+	}
 
  	.intbox4 {
  	border: 2px solid red;
