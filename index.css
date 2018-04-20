@@ -119,6 +119,12 @@ body {
  	filter: contrast(100%);
  }
 
+ 	/*@media all and (min-width: 700px) {
+	.aboutbox2 {
+		background-image: none;
+		border: none;*/
+}
+
  .aboutbox4 {
  	border: double;
 	grid-column-start: 2;
@@ -134,9 +140,13 @@ body {
 	border-color: black;
 	padding: 10px;
 	font-variant: small-caps;
-	color:  #000099;
+	color: black;
 	font-size: 17px;
 }
+	/*@media all and (max-width: 500px) {
+	.aboutbox4 p  {
+		text-align: left;
+	}*/
 
 
  		/*INTERESTS/HOBBIES*/
